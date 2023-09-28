@@ -5,7 +5,7 @@ import { LiaTimesSolid } from 'react-icons/lia';
 
 const SidebarComp = ({openProfile}) => {
   return (
-    <aside className="fixed top-0 left-0 z-[100] flex flex-col w-full h-screen overflow-y-auto lg:hover:overflow-y-auto md:w-80  px-5 py-8  bg-gray-900  dark:bg-gray-900">
+    <aside className="fixed top-0 left-0 z-[100] flex flex-col w-full h-screen overflow-y-auto lg:overflow-hidden lg:hover:overflow-y-auto md:w-80  px-5 py-8  bg-gray-900  dark:bg-gray-900">
       <div className="flex flex-row justify-between">
         <div className="a flex flex-col gap-4 w-fit">
           <a href="">
